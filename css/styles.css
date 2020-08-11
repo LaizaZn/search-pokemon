@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(to bottom, #ff4d4d 40%, #ff3333 60%);
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#pokemon {
+    width: 30%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    /* background-image: url('searchicon.png'); */
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+#button {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    width: 10%;
+    cursor: pointer;
+}
